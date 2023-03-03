@@ -6,5 +6,10 @@ if op == '+':
     print('The addition is', num1+num2)
 elif op == '-':
     print('The subtraction is', num1-num2)
-elif
+elif op == '*':
     print('The multiplication is', num1*num2)
+elif op == '/':
+    print('The division is', (num1/num2))
+else:
+    print('Invalid Operator')
+
